@@ -1,1 +1,20 @@
-    
+:root {
+  --accent-color: #d4c17f;
+  --secondary-color: #ffffff;
+  --minory-color: color: #E7E7E7;
+  --background-color: rgba(36, 43, 51, 0.3);
+}
+
+.header {
+  background-color: var(--background-color)
+}
+
+.list {
+  text-decoration: none;
+}
+
+menu:hover,
+menu:active {
+  cursor: pointer;
+  text-decoration: none;
+}
